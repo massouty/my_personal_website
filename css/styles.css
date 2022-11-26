@@ -40,7 +40,7 @@ main {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(/images/background1.jpg);
+    background-color:rebeccapurple;
     background-position:center ;
     background-size: cover;
     background-attachment: fixed;
