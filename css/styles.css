@@ -40,7 +40,7 @@ main {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(images/photo4.png) no-repeat;
+    background:url(/images/photo4.png) no-repeat;
     background-position:center ;
     background-size: cover;
     background-attachment: fixed;
