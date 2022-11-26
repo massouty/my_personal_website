@@ -124,3 +124,17 @@ main {
             }
         .h1-a{color: rgb(250, 250, 250);font-size: 1.5em;font-weight: 700; }
                 .h3-a{color: rgb(246, 246, 250);font-size: 1.2em;font-weight: 500; }
+
+@media all and (max-width:580px){
+  .products{grid-template-columns: 1fr;}
+ }
+
+ @media all and (min-width:580px) and (max-width:750px){
+  .products{grid-template-columns:1fr 1fr 1fr;}
+ }
+
+ @media all and (max-width:750px){
+  .products{grid-gap:10px;}
+   .grid-item{grid-column: auto;grid-row:auto;}
+   
+   }
